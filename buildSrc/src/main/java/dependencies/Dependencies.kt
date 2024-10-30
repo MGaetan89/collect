@@ -18,7 +18,6 @@ object Dependencies {
     const val androidx_work_runtime = "androidx.work:work-runtime:${Versions.work}"
     const val androidx_cardview = "androidx.cardview:cardview:1.0.0"
     const val androidx_exinterface = "androidx.exifinterface:exifinterface:1.3.1" // Check if https://github.com/getodk/collect/issues/4819 and https://github.com/getodk/collect/issues/5033 no longer takes place before upgrading
-    const val androidx_multidex = "androidx.multidex:multidex:2.0.1"
     const val androidx_preference_ktx = "androidx.preference:preference-ktx:1.2.0"
     const val androidx_fragment_ktx = "androidx.fragment:fragment-ktx:${Versions.androidx_fragment}"
     const val android_material = "com.google.android.material:material:1.6.1"
@@ -91,7 +90,6 @@ object Dependencies {
     const val androidx_test_ext_junit = "androidx.test.ext:junit:1.1.3"
     const val okhttp3_mockwebserver = "com.squareup.okhttp3:mockwebserver:${Versions.okhttp3}"
     const val hamcrest = "org.hamcrest:hamcrest:2.2"
-    const val robolectric = "org.robolectric:robolectric:${Versions.robolectric}"
-    const val robolectric_shadows_multidex = "org.robolectric:shadows-multidex:${Versions.robolectric}"
+    const val robolectric = "org.robolectric:robolectric:4.7.3"
     const val uiautomator = "androidx.test.uiautomator:uiautomator:2.2.0"
 }

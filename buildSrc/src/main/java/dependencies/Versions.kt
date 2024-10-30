@@ -11,7 +11,6 @@ object Versions {
     const val glide = "4.13.2"
     const val mockito = "4.6.1"
     const val okhttp3 = "4.10.0"
-    const val robolectric = "4.7.3"
     const val work = "2.7.1"
     const val lifecycle = "2.5.1"
     const val camerax = "1.1.0"

@@ -79,7 +79,6 @@ android {
         versionCode LEGACY_BUILD_NUMBER_OFFSET + 1
         versionName getVersionName()
         testInstrumentationRunner('androidx.test.runner.AndroidJUnitRunner')
-        multiDexEnabled true
         vectorDrawables.useSupportLibrary = true
         archivesBaseName = 'collect'
     }
@@ -288,7 +287,6 @@ dependencies {
 
     implementation Dependencies.androidx_cardview
     implementation Dependencies.androidx_exinterface
-    implementation Dependencies.androidx_multidex
     implementation Dependencies.androidx_preference_ktx
     implementation Dependencies.androidx_fragment_ktx
 
@@ -384,7 +382,6 @@ dependencies {
 
     testImplementation Dependencies.androidx_test_ext_junit
     testImplementation Dependencies.androidx_arch_core_testing
-    testImplementation Dependencies.robolectric_shadows_multidex
     testImplementation Dependencies.okhttp3_mockwebserver
     testImplementation Dependencies.squareup_okhttp_tls
 
